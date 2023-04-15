@@ -1,0 +1,23 @@
+form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  width: 20rem;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  border: none;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+}
+
+input::placeholder {
+  color: #aaaaaaaa;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}

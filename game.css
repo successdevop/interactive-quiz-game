@@ -38,10 +38,48 @@
 #hud {
   width: 100%;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
+  align-items: baseline;
   text-align: center;
 }
-#hud-prefix {
+
+.hud-prefix {
   font-size: 2rem;
+  text-align: center;
+}
+
+.progressBar {
+  margin-top: 1.5rem;
+  width: 20rem;
+  height: 4rem;
+  border: 0.3rem solid #56a5eb;
+}
+
+.progress-bar-full {
+  height: 100%;
+  width: 0%;
+  background-color: #56a5eb;
+}
+
+.controlBtns {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.controlBtns button {
+  font-size: 2rem;
+  padding: 0.3rem 4rem;
+  border: 2px solid #56a5eb;
+  color: #56a5eb;
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px 0px rgba(86, 166, 235, 0.792);
+  cursor: pointer;
+}
+.controlBtns button:active {
+  box-shadow: 5px 5px 15px 1px #56a5eb;
 }

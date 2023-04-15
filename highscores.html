@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>High Scores</title>
+    <!-- twitter custom script -->
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
+    <!-- custom styles -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./highscores.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="highScores" class="flex-center flex-column">
+        <h1 class="finalScore">High Score</h1>
+        <ul class="highScoresList">
+          <li class="scoreDetails">
+            Success : <span class="displayScore">100</span>
+          </li>
+        </ul>
+        <a href="./index.html" class="btn">Go Home</a>
+
+        <div class="social-media-btns">
+          <!-- twitter button -->
+          <a
+            class="twitter-share-button"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-size="large"
+            href="https://twitter.com/intent/tweet?text=I just published an article on how you can share content to Twitter from the client website"
+          >
+            Tweet
+          </a>
+          <!-- linked-in button -->
+          <a
+            href="https://www.linkedin.com/sharing/share-offsite/?url=unclebigbay.hashnode.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="linkedin-btn"
+          >
+            Share on LinkedIn
+          </a>
+          <!-- facebook button -->
+          <a
+            href="https://www.facebook.com/sharer/sharer.php?u=https://unclebigbay.hashnode.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="facebook-btn"
+          >
+            Share on Facebook
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- custom script -->
+    <script src="./highscores.js"></script>
+  </body>
+</html>

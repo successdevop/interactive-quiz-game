@@ -1,0 +1,40 @@
+.highScoresList {
+  width: 100%;
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.scoreDetails {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  color: #56a5eb;
+}
+
+.displayScore {
+  color: #56a5eb;
+}
+
+.social-media-btns {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.linkedin-btn,
+.facebook-btn {
+  color: #fff;
+  text-decoration: none;
+  background-color: #1d9bf0;
+  font-size: 1.25rem;
+  padding: 0.8rem 1rem;
+  border-radius: 100px;
+}

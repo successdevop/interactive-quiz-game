@@ -106,3 +106,34 @@ h3 {
   box-shadow: none;
   transform: none;
 }
+
+.levelOfDifficulty {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+label,
+select {
+  width: 20rem;
+  color: #56a5eb;
+}
+
+label {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+select {
+  padding: 1rem;
+  letter-spacing: 2px;
+  font-size: 1.8rem;
+  border: 0.2rem solid #56a5eb;
+}
